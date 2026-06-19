@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML to Data URL Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+    <div class="container">
+        <h1>Data URL Converter</h1>
+        <p>Paste your single-file HTML below to generate a reusable Data URL.</p>
+        <textarea id="htmlInput" placeholder="Paste your HTML code here..."></textarea>
+        <div class="actions">
+            <button id="convertBtn" class="btn primary">Convert to Data URL</button>
+            <button id="copyBtn" class="btn secondary" disabled>Copy URL</button>
+        </div>
+        <textarea id="urlOutput" placeholder="Your Data URL will appear here..." readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
