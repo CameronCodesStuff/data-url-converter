@@ -1,4 +1,6 @@
-# 🌌 HTML to data-string URL converter
+#  HTML to data-string URL converter
+
+---
 
 Turns HTML into a data-string URL that can be entered into most browsers seach bar.
 ---
